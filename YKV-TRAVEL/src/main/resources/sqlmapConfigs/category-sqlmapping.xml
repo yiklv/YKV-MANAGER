@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yiklv.travel.product.dao.CategoryMapper">
+	
+	<!--配置一个resultMap 指定返回的类型 -->
+    <resultMap id="category" type="CategoryBeans">
+        <result column="category_id" property="categoryId" />
+        <result column="category_name" property="categoryName" />
+        <result column="category_type" property="categoryType" />
+    </resultMap>
+    
+    <!--配置一个resultMap 指定返回的类型 -->
+    <resultMap id="categoryType" type="CategoryTypeBeans">
+        <result column="category_type" property="categoryType" />
+        <result column="category_typedesc" property="categoyTypeDesc" />
+        <result column="category_img" property="categoryImg" />
+    </resultMap>
+    
+	<select id="queryAllCategory" resultMap="category">
+		SELECT
+			category_id,
+			category_name,
+			category_type
+		FROM
+			shop_category
+		WHERE
+			category_pid = '0'
+	</select>
+	
+	<select id="queryAllPreCategory" resultMap="category">
+		SELECT
+			group_concat(category_name order by category_type asc separator '/')
+		FROM
+			shop_category
+		WHERE
+			category_pid = '0'
+		GROUP BY category_type
+	</select>
+	
+	
+	<select id="querySubCategorys" parameterType="java.lang.String" resultMap="category">
+		SELECT
+			category_id,
+			category_name
+		FROM
+			shop_category
+		WHERE
+			category_pid = #{parentId, jdbcType=VARCHAR}
+	</select>
+	
+	<select id="queryOneSubCategorys" parameterType="java.lang.String"  resultMap="category">
+		SELECT
+			category_id,
+			category_name
+		FROM
+			shop_category
+		WHERE
+			category_id = #{subCategoryId, jdbcType=VARCHAR}
+	</select>
+	
+	<select id="queryAllCateoryType" resultMap="categoryType">
+		SELECT
+			c.category_type,
+			c.category_typedesc,
+			c.category_img
+		FROM
+			category_bigtype c
+		WHERE
+			c.type_status = 'Y'
+	</select>
+	
+	<select id="queryAllCategoryByType" parameterType="java.lang.String" resultMap="category">
+		SELECT
+			category_id,
+			category_name,
+			category_type
+		FROM
+			shop_category
+		WHERE
+			category_pid = '0'
+		AND category_type = #{categoryType, jdbcType=VARCHAR}
+	</select>
+	
+	<insert id="addCategory" parameterType="CategoryBeans">
+		INSERT INTO shop_category(category_id, category_name,category_type, category_pid) 
+		VALUES (#{categoryId}, #{categoryName})
+	</insert>
+	<update id="updateCategory" parameterType="CategoryBeans">
+		UPDATE shop_category set category_name = #{categoryName}
+		WHERE category_id = #{categoryId}
+	</update>
+	<delete id="deleteCategory" parameterType="java.lang.String">
+		DELETE FROM shop_category WHERE category_id = #{categoryId, jdbcType=VARCHAR}
+	</delete>
+	
+	<!-- <insert id="addSubCategory" parameterType="SubCategoryBeans">
+		INSERT INTO shop_subcategory(sub_category_id, sub_category_name, ) 
+		VALUES (#{subCategoryId}, #{subCategoryName})
+	</insert>
+	<update id="updateSubCategory" parameterType="SubCategoryBeans">
+		UPDATE shop_subcategory set sub_category_name = #{subCategoryName}
+		WHERE sub_category_id = #{subCategoryId}
+	</update>
+	<delete id="deleteSubCategory" parameterType="java.lang.String">
+		DELETE FROM shop_subcategory WHERE sub_category_id = #{subCategoryId, jdbcType=VARCHAR}
+	</delete> -->
+</mapper>

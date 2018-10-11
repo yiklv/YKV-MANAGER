@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yiklv.travel.base.dao.UrlMapper">
+	<!--在mapper文件中的头部引入缓存策略-->
+    <cache type="org.mybatis.caches.ehcache.LoggingEhcache"/>
+    
+	<select id="queryAuthorityUrlLists" parameterType="java.lang.String" resultType="UrlBeans">
+		<!--SELECT
+			url AS url,
+			url_desc AS urlDesc,
+			status AS status
+		FROM
+			shop_url
+		WHERE
+			status = #{status, jdbcType=VARCHAR}-->
+	</select>
+	<select id="queryAuthorityUrl" parameterType="java.lang.String" resultType="UrlBeans">
+		SELECT
+			url AS url,
+			url_desc AS urlDesc,
+			status AS status
+		FROM
+			shop_url
+		WHERE
+			url = #{url, jdbcType=VARCHAR}
+	</select>
+</mapper>

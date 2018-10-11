@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yiklv.travel.index.dao.SpotTicketMapper">
+    <!--在mapper文件中的头部引入缓存策略
+    <cache type="org.mybatis.caches.ehcache.LoggingEhcache"/>-->
+
+    <select id="queryTktType" parameterType="java.lang.String" resultType="TicketTypeBean">
+        SELECT
+            tst.type_id as ticketTypeId,
+            tst.type_name as ticketTypeName,
+            tst.type_image as ticketTypeImg
+        FROM
+            trv_spot_tkt_type tstt, trv_syc_tkttype tst
+        WHERE tstt.tkt_type = tst.type_id and tstt.spot_id = #{spotId, jdbcType=VARCHAR}
+        order by tstt.tkt_type
+    </select>
+    <select id="querySpotTicket"  parameterType="java.util.Map" resultType="TicketBean">
+        SELECT
+            tti.tkt_id as ticketId,
+            tti.tkt_name as ticketName,
+            tti.tkt_price as ticketPrice,
+            tti.tkt_old_price as ticketOldPirce
+        FROM
+            trv_tkt_info tti
+        WHERE tti.spot_id = #{spotId, jdbcType=VARCHAR} and tti.tkt_type = #{tktTypeId, jdbcType=VARCHAR}
+    </select>
+
+    <select id="queryTicketDetail"  parameterType="java.lang.String" resultType="TicketBean">
+        SELECT
+            tti.tkt_id as ticketId,
+            tti.tkt_name as ticketName,
+            tti.tkt_price as ticketPrice,
+            tti.tkt_old_price as ticketOldPirce
+        FROM
+            trv_tkt_info tti
+        WHERE tti.tkt_id = #{ticketId, jdbcType=VARCHAR}
+    </select>
+
+    <select id="queryTicketNoteDetail"  parameterType="java.lang.String" resultType="java.lang.String">
+        SELECT
+            tti.tkt_note_desc as tktNoteDesc
+        FROM
+            trv_tkt_info_desc tti
+        WHERE tti.tkt_id = #{ticketId, jdbcType=VARCHAR}
+    </select>
+</mapper>

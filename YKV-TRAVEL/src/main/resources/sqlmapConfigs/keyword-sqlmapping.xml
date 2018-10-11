@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yiklv.travel.index.dao.SpotKeyWordMapper">
+    <!--在mapper文件中的头部引入缓存策略
+    <cache type="org.mybatis.caches.ehcache.LoggingEhcache"/>-->
+
+    <select id="queryKeyWordList" parameterType="java.lang.Integer" resultType="SpotKeyWordBean">
+        SELECT
+            tsk.word_id as keyId, tsk.word_name as keyName
+        FROM
+            trv_spot_keyword tsk
+        where tsk.word_status ='Y'
+        order by tsk.word_level
+        LIMIT #{keyNum, jdbcType=INTEGER}
+    </select>
+</mapper>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yiklv.travel.index.dao.TourSpotMapper">
+    <!--在mapper文件中的头部引入缓存策略
+    <cache type="org.mybatis.caches.ehcache.LoggingEhcache"/>-->
+
+    <select id="queryAllTourSpot" resultType="TourSpotBean">
+        SELECT
+            spot_id AS spotId,
+            spot_name AS spotName,
+            image_url AS imageUrl,
+            city_id AS cityId,
+            (SELECT city_name FROM trv_syc_city tsc WHERE tsc.city_id = tsi.city_id) cityName,
+            area_id AS areaId,
+            (SELECT area_name FROM trv_syc_area tsa WHERE tsa.area_id = tsi.area_id) areaName,
+            spot_price AS spotPrice,
+            spot_old_price AS spotOldPrice,
+            spot_level AS spotLevel,
+            spot_address AS spotAddr
+        FROM
+            trv_spot_info tsi
+        order by tsi.spot_id
+    </select>
+    <select id="queryTourSpotById" parameterType="java.lang.String" resultType="TourSpotBean">
+		SELECT
+            spot_id AS spotId,
+            spot_name AS spotName,
+            image_url AS imageUrl,
+            city_id AS cityId,
+            (SELECT city_name FROM trv_syc_city tsc WHERE tsc.city_id = tsi.city_id) cityName,
+            area_id AS areaId,
+            (SELECT area_name FROM trv_syc_area tsa WHERE tsa.area_id = tsi.area_id) areaName,
+            spot_price AS spotPrice,
+            spot_old_price AS spotOldPrice,
+            spot_level AS spotLevel,
+            spot_address AS spotAddr,
+            (select spot_note_desc  from trv_spot_info_desc d where d.spot_id = tsi.spot_id) as spotNoteDesc
+        FROM
+            trv_spot_info tsi
+		WHERE
+			spot_id = #{spotId, jdbcType=VARCHAR}
+	</select>
+    <select id="queryTourSpotByName" parameterType="java.lang.String" resultType="TourSpotBean">
+        <!--<bind name="spotNamePt" value="'%' + _parameter.spotName + '%'" />-->
+        SELECT
+            spot_id AS spotId,
+            spot_name AS spotName,
+            image_url AS imageUrl,
+            city_id AS cityId,
+            (SELECT city_name FROM trv_syc_city tsc WHERE tsc.city_id = tsi.city_id) cityName,
+            area_id AS areaId,
+            (SELECT area_name FROM trv_syc_area tsa WHERE tsa.area_id = tsi.area_id) areaName,
+            spot_price AS spotPrice,
+            spot_old_price AS spotOldPrice,
+            spot_level AS spotLevel,
+            spot_address AS spotAddr
+        FROM
+          trv_spot_info tsi
+		WHERE
+          POSITION(#{spotName} IN `spot_name`)
+        order by spot_id
+	</select>
+
+    <insert id="insertSpotInfo" parameterType="TourSpotBean">
+        insert into trv_spot_info(id_key, spot_id, spot_name, image_url, city_id, area_id, spot_price, spot_old_price, spot_level, spot_address)
+        values(rand_string(32), concat('SP', padIntToStr('L', nextval('tour_spot_category'), 16, '0')),
+              #{spotName}, #{imageUrl}, #{cityId}, #{areaId}, #{spotPrice}, #{spotOldPrice}, #{spotLevel}, #{spotAddr})
+
+    </insert>
+
+    <update id="updateSpotInfo" parameterType="TourSpotBean">
+        update trv_spot_info
+           set spot_name=#{spotName},
+               image_url=#{imageUrl},
+               city_id=#{cityId},
+               area_id=#{areaId},
+               spot_price= #{spotPrice},
+               spot_old_price=#{spotOldPrice},
+               spot_level=#{spotLevel},
+               spot_address=#{spotAddr}
+        where spot_id = #{spotId}
+    </update>
+    
+    <delete id="deleteSpotInfo" parameterType="java.lang.String">
+        delete from trv_spot_info
+         where spot_id = #{spotId, jdbcType=VARCHAR }
+    </delete>
+
+    <select id="querySpotSwiperImage" parameterType="java.lang.String" resultType="java.lang.String">
+
+        select image_url from trv_spot_img where spot_id = #{spotId,jdbcType=VARCHAR}
+
+    </select>
+
+    <select id="querySpotInstruction" parameterType="java.lang.String" resultType="java.lang.String">
+        select spot_intr_desc as spotInstrDesc from trv_spot_info_desc where spot_id = #{spotId,jdbcType=VARCHAR}
+    </select>
+
+    <select id="querySpotNoteInfo" parameterType="java.lang.String" resultType="java.lang.String">
+        select spot_note_desc as spotNoteDesc from trv_spot_info_desc where spot_id = #{spotId,jdbcType=VARCHAR}
+    </select>
+
+    <resultMap id="spotOpenTimeMap" type="java.util.Map">
+        <result property="openTime" column="open_time_desc"/>
+    </resultMap>
+
+
+    <select id="querySpotOpenTime" parameterType="java.lang.String" resultMap="spotOpenTimeMap">
+        select open_time_desc from trv_spot_opentime tso where tso.spot_id = #{spotId, jdbcType=VARCHAR}
+    </select>
+</mapper>

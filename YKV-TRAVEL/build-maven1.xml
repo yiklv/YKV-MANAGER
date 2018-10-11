@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<project name="daogou" basedir="." default="mail" xmlns:artifact="urn:maven-artifact-ant">
+
+
+    <property file="build.properties"/>
+    <property name="project.root" value="${basedir}"/>
+
+    <description>${description}</description>
+    <target name="clean"
+            description="delete classes">
+        <echo message=" --删除lib文件夹和biz包以及protocal包开始 " />
+
+        <delete file="${biz.jar}"/>
+        <delete file="${protocal.jar}"/>
+        <echo message=" --删除lib文件夹和biz包以及protocal包结束 " />
+    </target>
+
+    <target name="clean lib" >
+        <echo message=" --删除lib文件夹开始 "/>
+        <delete dir="${lib}"/>
+        <echo message=" --删除lib文件夹结束 "/>
+    </target>
+
+
+    <target name="jarClean">
+        <echo message=" --删除临时编译的文件开始 " />
+        <delete dir="${ant.archiver.classes}"/>
+        <mkdir dir = "${ant.archiver.classes}" />
+        <echo message=" --删除临时编译的文件结束 " />
+    </target>
+
+    <target name="init" depends="clean lib">
+        <echo message="*****初始化，下载maven库****"/>
+        <echo message="${description}"/>
+        <path id="maven-ant-tasks.classpath" path="${maven.ant.task.lib}"/>
+        <typedef resource="org/apache/maven/artifact/ant/antlib.xml"
+                 uri="urn:maven-artifact-ant"
+                 classpathref="maven-ant-tasks.classpath"/>
+
+        <artifact:pom id="maven.project" file="pom.xml"/>
+        <artifact:pom id="maven.project.biz" file="biz/pom.xml"/>
+        <artifact:pom id="maven.project.web" file="web/pom.xml"/>
+        <artifact:pom id="maven.project.protocal" file="web/pom.xml"/>
+        <artifact:dependencies pathId="maven.classpath" filesetid="maven.fileset">
+            <pom refid="maven.project.web"/>
+        </artifact:dependencies>
+        <copy todir="${lib}">
+            <fileset refid="maven.fileset"/>
+            <!-- This mapper strips off all leading directory information -->
+            <mapper type="flatten"/>
+        </copy>
+        <echo message="*****初始化，下载maven库结束****"/>
+    </target>
+    <path id="class.path">
+        <fileset dir="${lib}" includes="*.jar" />
+    </path>
+    <target name="compile protocal" depends="clean,jarClean">
+        <echo message=" --编译protocal包开始 " />
+        <javac srcdir="${protocal.src}" destdir="${ant.archiver.classes}">
+            <classpath refid="class.path"/>
+        </javac>
+
+        <jar destfile="${protocal.jar}"
+             basedir="${ant.archiver.classes}"/>
+        <echo message=" --编译protocal包结束 " />
+    </target>
+
+
+    <target name="compile biz" depends="jarClean,compile protocal">
+        <echo message=" --编译biz包开始 " />
+        <mkdir dir="${classes}"/>
+        <javac srcdir="${biz.src}" destdir="${ant.archiver.classes}">
+            <classpath refid="class.path"/>
+        </javac>
+        <jar destfile="${biz.jar}"
+             basedir="${ant.archiver.classes}"/>
+        <echo message=" --编译biz包结束 " />
+    </target>
+
+
+    <target name="compile web" depends="compile biz">
+        <echo message=" --编译web开始 " />
+        <mkdir dir="${classes}"/>
+        <javac srcdir="${web.src}" destdir="${classes}">
+            <classpath refid="class.path"/>
+        </javac>
+        <echo message=" --编译web结束 " />
+    </target>
+    <!-- 如果你有修改pom文件，请使用这个编译  -->
+    <target name="main" >
+        <antcall target="init"/>
+        <antcall target="compile web"/>
+    </target>
+    <!-- 如果你没有修改pom文件，请使用这个编译  -->
+    <target name="main without init" >
+        <antcall target="compile web"/>
+    </target>
+</project>

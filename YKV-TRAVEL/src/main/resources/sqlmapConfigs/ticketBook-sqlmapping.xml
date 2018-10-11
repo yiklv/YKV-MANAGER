@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yiklv.travel.index.dao.TicketBookMapper">
+    <!--在mapper文件中的头部引入缓存策略
+    <cache type="org.mybatis.caches.ehcache.LoggingEhcache"/>-->
+
+    <select id="queryTicketBookInfo" resultType="TicketBookBean">
+        SELECT
+            t.user_id as userId,
+            t.real_name as realName,
+            t.mobilePhone as mobilePhone,
+            t.id_no as idNo
+        FROM trv_spot_book_info t
+       WHERE t.user_id = #{ userId, jdbcType=VARCHAR }
+    </select>
+
+    <insert id="insertTicketBookInfo" parameterType="TicketBookBean">
+        insert into trv_spot_book_info(id_key, user_id, real_name, mobilePhone, id_no)
+        values(rand_string(32), #{userId}, #{realName}, #{mobilePhone}, #{idNo})
+
+    </insert>
+
+    <update id="updateTicketBookInfo" parameterType="TicketBookBean">
+        update trv_spot_book_info
+           set real_name=#{realName},
+               mobilePhone=#{mobilePhone},
+               id_no=#{idNo}
+        where user_id = #{userId}
+    </update>
+
+</mapper>

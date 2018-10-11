@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yiklv.travel.index.dao.UserMapper">
+	<select id="queryUserInfo" parameterType="java.lang.String" resultType="UserBeans">
+		SELECT
+			user_id as userId,
+			user_name as userName,
+			user_pwd as password,
+			real_name as realName,
+			mobilephone as mobilephone,
+			id_no as idNo,
+			user_sex as sex
+		FROM
+			shop_user
+		WHERE
+			user_id = #{userId, jdbcType=VARCHAR}
+	</select>
+</mapper>

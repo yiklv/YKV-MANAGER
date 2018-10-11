@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yiklv.wxtrv.login.dao.WxAppMapper">
+    <!--在mapper文件中的头部引入缓存策略
+    <cache type="org.mybatis.caches.ehcache.LoggingEhcache"/>-->
+    <resultMap id="appResultMap" type="java.util.Map">
+        <result property="AppId" column="appId"/>
+        <result property="AppSecret" column="appSecret"/>
+    </resultMap>
+    <select id="queryWxAppInfo" resultMap="appResultMap">
+        SELECT appId, appSecret FROM trv_wx_info
+    </select>
+
+
+    <insert id="insertWxUserInfo" parameterType="WxUserBean">
+      insert into `trv_syc_user`(`id_key`,`user_id`, `nick_name`, `avatar_url`, `gender`, `city`, `province`, `country`,`signature`)
+      values( rand_string(32), #{userId}, #{nickName}, #{avatarUrl}, #{gender}, #{city}, #{province}, #{country}, #{signature})
+
+    </insert>
+    <update id="updateWxUserInfo" parameterType="WxUserBean">
+        update trv_syc_user set
+            `nick_name` = #{nickName},
+            `avatar_url` =  #{avatarUrl},
+            `gender` = #{gender},
+            `city` = #{city},
+            `province` =  #{province},
+            `country` = #{country},
+            `signature` = #{signature},
+            `date_updated` = NOW(),
+            `updated_by` = 'SYSTEM'
+        where user_id = #{userId}
+    </update>
+    <select id="queryWxUserInfoExist" parameterType="java.lang.String" resultType="java.lang.Integer">
+        select count(1) from trv_syc_user tsu where tsu.user_id = #{userId, jdbcType= VARCHAR}
+    </select>
+</mapper>
