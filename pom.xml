@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>YKV-TRAVEL</module>
+        <module>YKV-TRAVEL-ADMIN</module>
     </modules>
 
 

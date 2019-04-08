@@ -36,14 +36,14 @@ end;
 #
 
 -- 
---INSERT INTO sequence VALUES ('seq_test1_num2', '0', '2');
---CREATE TRIGGER `TRI_shop_category` BEFORE INSERT ON `shop_category` FOR EACH ROW BEGIN  
---set NEW.category_id = nextval('seq_category');
---END; 
+--  INSERT INTO sequence VALUES ('seq_test1_num2', '0', '2');
+-- CREATE TRIGGER `TRI_shop_category` BEFORE INSERT ON `shop_category` FOR EACH ROW BEGIN
+-- set NEW.category_id = nextval('seq_category');
+-- END;
 
 
 
-set global log_bin_trust_function_creators = 1;
+-- set global log_bin_trust_function_creators = 1;
 DROP FUNCTION IF EXISTS rand_string;
 DELIMITER $$
 CREATE FUNCTION rand_string(n INT)

@@ -1,0 +1,1580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="YKV-TRAVEL-ADMIN:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/index/action/LoginAction.java" line="32" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="207eda08-dad7-4a8e-b10d-1aa104993a8f" name="Default" comment="init commit">
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/index/action/LoginAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/interceptor/annotation/AvoidDuplicateSubmission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/interceptor/method/AvoidDuplicateSubmissionInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/utils/date/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/utils/encrypt/AESUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/utils/encrypt/AesEncryptUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/utils/encrypt/EncryptUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/utils/encrypt/Md5Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/utils/file/FileOperateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/utils/file/FileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/utils/file/FileViewUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/utils/file/XMLParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/utils/file/excel/ExcelException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/utils/file/excel/ExcelUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/utils/http/HttpRequestUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/utils/http/HttpUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/utils/http/HttpsUrlUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/utils/image/DrawImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/utils/image/ImageUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/utils/image/JBarcodeByEAN8Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/utils/image/ZxingBarCodeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/utils/image/ZxingEAN13Code.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/utils/image/ZxingQRCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/utils/image/ZxingTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/utils/image/code/RandomValidateCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/utils/other/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/utils/other/JsonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/utils/other/RandomNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/utils/other/RandomValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/utils/page/PageBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/utils/page/ShowMessageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/utils/regex/RegexIdNoUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/utils/regex/RegexUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/utils/sort/MergeSortImproved.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/utils/sort/SortUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/utils/str/RandomUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/utils/str/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/resources/common.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/resources/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/resources/sqlmapConfigs/wxinfo-sqlmapping.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/charts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/css/fontastic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/css/style.blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/css/style.default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/css/style.green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/css/style.pink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/css/style.red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/css/style.sea.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/css/style.violet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/forms.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/avatar-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/avatar-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/avatar-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/avatar-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/avatar-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/avatar-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/avatar-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/avatar-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/avatar-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/avatar-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/avatar-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/avatar-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/AD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/AE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/AF.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/AG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/AI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/AL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/AM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/AN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/AO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/AQ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/AR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/AS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/AT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/AU.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/AW.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/AX.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/AZ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/BA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/BB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/BD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/BE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/BF.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/BG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/BH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/BI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/BJ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/BL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/BM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/BN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/BO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/BR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/BS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/BT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/BW.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/BY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/BZ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/CA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/CC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/CD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/CF.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/CG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/CH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/CI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/CK.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/CL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/CM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/CN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/CO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/CR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/CT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/CU.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/CV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/CW.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/CX.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/CY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/CZ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/DE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/DJ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/DK.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/DM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/DO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/DZ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/EC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/EE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/EG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/EH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/ER.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/ES.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/ET.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/EU.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/FI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/FJ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/FK.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/FM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/FO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/FR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/GA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/GB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/GD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/GE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/GG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/GH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/GI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/GL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/GM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/GN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/GQ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/GR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/GS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/GT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/GU.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/GW.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/GY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/HK.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/HN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/HR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/HT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/HU.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/IC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/ID.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/IE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/IL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/IM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/IN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/IQ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/IR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/IS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/IT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/JE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/JM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/JO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/JP.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/KE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/KG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/KH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/KI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/KM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/KN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/KP.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/KR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/KW.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/KY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/KZ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/LA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/LB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/LC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/LI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/LK.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/LR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/LS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/LT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/LU.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/LV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/LY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/MA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/MC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/MD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/ME.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/MF.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/MG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/MH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/MK.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/ML.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/MM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/MN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/MO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/MP.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/MQ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/MR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/MS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/MT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/MU.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/MV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/MW.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/MX.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/MY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/MZ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/NA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/NC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/NE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/NF.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/NG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/NI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/NL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/NO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/NP.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/NR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/NU.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/NZ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/OM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/PA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/PE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/PF.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/PG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/PH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/PK.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/PL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/PN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/PR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/PS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/PT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/PW.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/PY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/QA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/RE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/RO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/RS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/RU.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/RW.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/SA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/SB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/SC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/SD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/SE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/SG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/SH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/SI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/SK.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/SL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/SM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/SN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/SO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/SR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/SS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/ST.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/SV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/SX.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/SY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/SZ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/TC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/TD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/TF.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/TG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/TH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/TJ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/TK.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/TL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/TM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/TN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/TO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/TR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/TT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/TV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/TW.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/TZ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/UA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/UG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/US.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/UY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/UZ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/VA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/VC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/VE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/VG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/VI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/VN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/VU.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/WF.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/WS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/YE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/YT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/ZA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/ZM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/ZW.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/_abkhazia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/_basque-country.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/_british-antarctic-territory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/_commonwealth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/_england.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/_gosquared.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/_kosovo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/_mars.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/_nagorno-karabakh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/_nato.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/_northern-cyprus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/_olympics.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/_red-cross.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/_scotland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/_somaliland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/_south-ossetia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/_united-nations.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/_unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/flags/16/_wales.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/map-close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/map-marker-blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/map-marker-default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/map-marker-green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/map-marker-pink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/map-marker-red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/map-marker-sea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/map-marker-violet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/map-marker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/mockup1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/mockup2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/mockup3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/mockup4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/mockup5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/mockup6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/mockup7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/multiselect-switch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/photos/paul-morris-116514-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/project-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/project-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/project-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/project-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/img/template-mac.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/js/charts-custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/js/charts-home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/js/cryptojs-method.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/js/front.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/pages/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/pages/public.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/pages/regist/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/static/data/addresses.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/static/data/countries.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/static/fonts/dashboard.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/static/fonts/dashboard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/static/fonts/dashboard.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/static/fonts/dashboard.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/static/icons-reference/fonts/dashboard.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/static/icons-reference/fonts/dashboard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/static/icons-reference/fonts/dashboard.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/static/icons-reference/fonts/dashboard.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/static/icons-reference/icons-reference.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/static/icons-reference/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/tables.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/base64/Base64.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/chart.js/Chart.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/chart.js/Chart.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/chart.js/Chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/chart.js/Chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/aes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/cipher-core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/crypto-js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/docs/QuickStartGuide.wiki" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/enc-base64.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/enc-hex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/enc-latin1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/enc-utf16.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/enc-utf8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/evpkdf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/format-hex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/format-openssl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/hmac-md5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/hmac-ripemd160.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/hmac-sha1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/hmac-sha224.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/hmac-sha256.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/hmac-sha3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/hmac-sha384.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/hmac-sha512.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/hmac.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/lib-typedarrays.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/md5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/mode-cfb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/mode-ctr-gladman.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/mode-ctr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/mode-ecb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/mode-ofb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/pad-ansix923.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/pad-iso10126.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/pad-iso97971.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/pad-nopadding.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/pad-pkcs7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/pad-zeropadding.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/pbkdf2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/rabbit-legacy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/rabbit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/rc4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/ripemd160.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/sha1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/sha224.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/sha256.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/sha3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/sha384.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/sha512.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/tripledes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/crypto-js-3.1.9-1/x64-core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/font-awesome/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/googleapis/googleapis.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/html5shiv/html5shiv.min.3.7.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/additional-methods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/jquery.validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_bn_BD.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_es_AR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_es_PE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_ge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_hy_AM.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_kk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_my.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_no.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_pt_BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_pt_PT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_sd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_si.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_sr_lat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_tj.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_ur.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/messages_zh_TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/methods_de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/methods_es_CL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/methods_fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/methods_nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery-validation/localization/methods_pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery.cookie/MIT-LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery.cookie/component.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery.cookie/cookie.jquery.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery.cookie/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery/jquery.slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/jquery/jquery.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/popper.js/esm/popper-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/popper.js/esm/popper-utils.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/popper.js/esm/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/popper.js/esm/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/popper.js/popper-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/popper.js/popper-utils.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/popper.js/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/popper.js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/popper.js/umd/popper-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/popper.js/umd/popper-utils.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/popper.js/umd/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/popper.js/umd/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/respond/respond.min.1.4.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/DB/DDL/temp/temp_private.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/DB/DML/01_dml_shop_area_yanguo001.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/DB/DML/02_dml_bank_bin_yanguo001.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/DB/DML/03_dml_category_yanguo001.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/js/crypto-js-3.1.9-1.tar.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/Public/css/css/contact.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/Public/css/css/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/Public/css/css/go.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/Public/css/css/head.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/Public/css/css/iemt.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/Public/css/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/Public/css/css/jinpin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/Public/css/css/list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/Public/css/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/Public/image/Image 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/brand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/collect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/css/contact.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/css/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/css/go.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/css/goods.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/css/head.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/css/iemt.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/css/list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/css/refined.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/css/submit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/css/suercenter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/go.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/gou_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/iemt.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/c_d_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/c_s_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/c_s_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/c_s_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/c_s_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/c_s_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/c_x_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/c_x_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/c_x_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/c_x_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/c_x_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/car_no_goods.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/con_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/con_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/con_c_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/con_c_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/con_s_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/con_s_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/con_s_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/con_s_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/con_s_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/d_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/d_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/d_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/d_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/d_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/d_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/d_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/d_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/day_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/day_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/day_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/day_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/day_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/day_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/day_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/day_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/day_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/day_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/day_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/day_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/detail_icon_list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/down_app_ewm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/down_load_20160411.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/foot_img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/foot_img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/foot_img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/footer_ewm_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/footer_ewm_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/h2_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/hg_img_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/icon_list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/jinpin_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/jinpin_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/jinpin_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/jinpin_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/list_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/list_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/list_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/list_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/list_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/list_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/list_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/list_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/list_top_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/login_icon_list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/logo_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/no_data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/order_icon_list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/p_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/p_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/p_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/p_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/p_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/p_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/p_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/p_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/pin_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/pinlun_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/register.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/search_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/shop_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/shop_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/shop_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/shop_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/shop_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/shop_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/shop_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/shop_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/shop_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/shop_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/shop_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/shop_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/submit_shop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/t_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/t_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/t_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/t_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/t_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/t_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/t_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/t_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/t_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/t_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/t_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/t_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/tm_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/top_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/top_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/top_2_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/top_2_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/top_2_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/top_2_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/top_2_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/top_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/top_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/top_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/top_center.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/true_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/tui_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/tui_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/tui_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/tui_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/tui_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/uc_icon_list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/uc_jf_icon_list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/ur_icon_list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/user_center_img4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/vedio_icon_list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/web-101-101-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/web-101-101-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/web-101-101-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/web-101-101-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/image/web-101-101-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/js/jquery-1.7.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/newPath.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/refined.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/submit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/submitpath.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/truesubmit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/usercenter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/userindex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/usersub.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/tpl/usertui.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/css/car/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/css/car/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/css/car/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/css/car/jquery-1.11.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/css/car/jquery_cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/css/car/unslider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/css/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/css/member.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/BR2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/BR3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/BR4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/BR5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/BR6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/BR7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/add_cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/banner1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/big_bg_img_v3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/shangpinxiangqing/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/shangpinxiangqing/16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/shangpinxiangqing/X-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/shangpinxiangqing/X1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/shangpinxiangqing/X10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/shangpinxiangqing/X13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/shangpinxiangqing/X14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/shangpinxiangqing/X15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/shangpinxiangqing/X2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/shangpinxiangqing/X3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/shangpinxiangqing/X4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/shangpinxiangqing/X5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/shangpinxiangqing/X6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/shangpinxiangqing/X7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/shangpinxiangqing/X8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/shangpinxiangqing/X9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/shangpinxiangqing/jia.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/shangpinxiangqing/jian.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/xlqg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/xlqg10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/xlqg11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/xlqg12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/xlqg13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/xlqg14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/xlqg15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/xlqg16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/xlqg17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/xlqg18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/xlqg19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/xlqg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/xlqg3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/xlqg4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/xlqg5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/xlqg6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/xlqg7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/xlqg8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/xlqg9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/images/yListNameicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/img/ad/ad1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/img/ad/ad2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/img/ad/ad3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/img/ad/ad4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/img/ad/ad5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/img/banner/login-banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/img/icon/code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/img/icon/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/img/icon/iphone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/img/icon/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/img/icon/star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/img/icon/tengxun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/img/icon/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/img/icon/weibo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/img/icon/weixin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/img/mem.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/js/jquery.SuperSlide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/js/modernizr-custom-v2.7.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/my-add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/my-all.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/my-apy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/my-car.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/my-class.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/my-dingdan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/my-new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/my-pingjia.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/my-shoucang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/my-tuihuo-jilu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/my-tuihuo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/my-user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/商城/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YKV-TRAVEL/DB/DDL/00_table_crate_user_yanguo001.sql" beforeDir="false" afterPath="$PROJECT_DIR$/YKV-TRAVEL/DB/DDL/00_table_crate_user_yanguo001.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YKV-TRAVEL/DB/DDL/01_table_init_yanguo001.sql" beforeDir="false" afterPath="$PROJECT_DIR$/YKV-TRAVEL/DB/DDL/01_table_init_yanguo001.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YKV-TRAVEL/DB/DDL/02_sequence_create_yanguo001.sql" beforeDir="false" afterPath="$PROJECT_DIR$/YKV-TRAVEL/DB/DDL/02_sequence_create_yanguo001.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YKV-TRAVEL/DB/DML/travel_02_dml_trv_spot_info_yanguo.sql" beforeDir="false" afterPath="$PROJECT_DIR$/YKV-TRAVEL/DB/DML/travel_02_dml_trv_spot_info_yanguo.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YKV-TRAVEL/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/YKV-TRAVEL/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YKV-TRAVEL/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YKV-TRAVEL/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/YKV-TRAVEL/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/YKV-TRAVEL/target/" />
+    <ignored path="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/pages/regist/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="61" selection-start-line="61" selection-end-line="67" selection-end-column="8" />
+              <folding>
+                <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cryptojs-method.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/js/cryptojs-method.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="temp_private.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/YKV-TRAVEL/DB/DDL/temp/temp_private.sql">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="00_table_crate_user_yanguo001.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/YKV-TRAVEL/DB/DDL/00_table_crate_user_yanguo001.sql">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="01_table_init_yanguo001.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/YKV-TRAVEL/DB/DDL/01_table_init_yanguo001.sql">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="head.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/Public/css/css/head.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="200" column="31" selection-start-line="200" selection-start-column="31" selection-end-line="200" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/index/action/LoginAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="436">
+              <caret line="54" column="49" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="49" />
+              <folding>
+                <element signature="e#1006#1025#1" expanded="true" />
+                <element signature="e#1065#1083#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AESUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/utils/encrypt/AESUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-17">
+              <caret line="62" column="62" selection-start-line="62" selection-start-column="50" selection-end-line="62" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/resources/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Base64</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="yanguo &lt;yiklv_yg@126.com&gt;" />
+      </list>
+    </option>
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/pom.xml" />
+        <option value="$PROJECT_DIR$/YKV-TRAVEL/pom.xml" />
+        <option value="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/resources/common.properties" />
+        <option value="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/base64/Base64.js" />
+        <option value="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/index/action/LoginAction.java" />
+        <option value="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/pages/regist/login.jsp" />
+        <option value="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/pages/public.jsp" />
+        <option value="$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/js/cryptojs-method.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\installSoft\mvn\apache-maven-3.5.0\mavenJar" />
+        <option name="mavenHome" value="D:/installSoft/mvn/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="D:\installSoft\mvn\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="YKV-TRAVEL Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="YKV-TRAVEL Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="YKV-TRAVEL-ADMIN Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="YKV-TRAVEL-ADMIN Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="681" />
+    <option name="y" value="51" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="YKV-MANAGER" type="b2602c69:ProjectViewProjectNode" />
+              <item name="YKV-MANAGER" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="YKV-MANAGER" type="b2602c69:ProjectViewProjectNode" />
+              <item name="YKV-MANAGER" type="462c0819:PsiDirectoryNode" />
+              <item name="YKV-TRAVEL" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="trvalAdmin" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.53" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.7">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="YKV-TRAVEL-ADMIN:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/trvalAdmin" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_YKV-MANAGER" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50202" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="YKV-TRAVEL-ADMIN:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="207eda08-dad7-4a8e-b10d-1aa104993a8f" name="Default" comment="" />
+      <created>1554555341792</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554555341792</updated>
+      <workItem from="1554555346092" duration="522000" />
+      <workItem from="1554556049814" duration="2423000" />
+      <workItem from="1554559021481" duration="1325000" />
+      <workItem from="1554561765883" duration="508000" />
+      <workItem from="1554562317628" duration="2124000" />
+      <workItem from="1554642482591" duration="6417000" />
+      <workItem from="1554655286099" duration="374000" />
+      <workItem from="1554728320492" duration="4297000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="17990000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="RestServices" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.2892741" />
+      <window_info anchor="bottom" id="Application Servers" order="12" weight="0.33802816" />
+      <window_info anchor="right" id="Maven Projects" order="11" visible="true" weight="0.18923241" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="right" id="CDI" order="9" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="JSF" order="8" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.2892741" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32936078" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Java Enterprise" order="8" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32980973" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19722815" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/pages/regist/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="87" column="9" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/pages/public.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/index/action/LoginAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="53" column="37" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="37" />
+          <folding>
+            <element signature="e#1006#1025#1" expanded="true" />
+            <element signature="e#1065#1083#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/pages/regist/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="87" column="9" lean-forward="true" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/pages/public.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/index/action/LoginAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="53" column="37" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="53" lean-forward="true" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/pages/regist/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="83" column="40" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YKV-TRAVEL/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YKV-TRAVEL-ADMIN/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2737">
+          <caret line="161" column="31" selection-start-line="161" selection-start-column="24" selection-end-line="161" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YKV-TRAVEL/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4998">
+          <caret line="294" column="24" lean-forward="true" selection-start-line="294" selection-start-column="24" selection-end-line="294" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YKV-TRAVEL/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YKV-TRAVEL-ADMIN/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4434">
+          <caret line="22" column="54" lean-forward="true" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.9.RELEASE/spring-webmvc-4.3.9.RELEASE.jar!/org/springframework/web/servlet/ModelAndView.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/resources/common.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/utils/encrypt/AESUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="62" column="62" selection-start-line="62" selection-start-column="50" selection-end-line="62" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/java/com/yiklv/trvAdmin/index/action/LoginAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="54" column="49" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="49" />
+          <folding>
+            <element signature="e#1006#1025#1" expanded="true" />
+            <element signature="e#1065#1083#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/vendor/base64/Base64.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/pages/public.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="37" column="69" selection-start-line="37" selection-start-column="69" selection-end-line="37" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/pages/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/js/charts-home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="201" column="13" lean-forward="true" selection-start-line="201" selection-start-column="13" selection-end-line="201" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/pages/regist/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="61" selection-start-line="61" selection-end-line="67" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YKV-TRAVEL-ADMIN/src/main/webapp/js/cryptojs-method.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YKV-TRAVEL/DB/DDL/temp/temp_private.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YKV-TRAVEL/DB/DDL/00_table_crate_user_yanguo001.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YKV-TRAVEL/DB/DDL/01_table_init_yanguo001.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YKV-TRAVEL/src/main/webapp/resources/shop/Public/css/css/head.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="200" column="31" selection-start-line="200" selection-start-column="31" selection-end-line="200" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>YKV-TRAVEL-ADMIN:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>YKV-TRAVEL-ADMIN</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

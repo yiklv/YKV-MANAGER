@@ -198,7 +198,7 @@ create table `trv_spot_book_info`(
 
 
 drop table if exists `trv_syc_user`;
-create table `trv_spot_order`(
+create table `trv_syc_user`(
   `id_key` varchar(36) not null,
   `user_id` varchar(32) not null comment '用户id',
   `nick_name` varchar(16) not null comment '微信用户名',
@@ -214,4 +214,20 @@ create table `trv_spot_order`(
 	`updated_by` varchar(64) default 'SYSTEM',
 	PRIMARY KEY (`id_key`)
 )ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='小程序用户信息';
+create unique INDEX `trv_syc_user_sid` on `trv_syc_user`(`user_id`);
+
+
+drop table if exists `trv_admin_user`;
+create table `trv_syc_user`(
+  `id_key` varchar(36) not null,
+  `user_id` varchar(32) not null comment '用户id',
+  `password` varchar(300 ) not null comment '密码',
+  `gender` varchar(2) not null comment '性别 1 男',
+  `mobilePhone` varchar(32) not null comment '手机号',
+  `date_created` timestamp  default CURRENT_TIMESTAMP,
+	`created_by` varchar(64) default 'SYSTEM',
+	`date_updated` timestamp  default CURRENT_TIMESTAMP,
+	`updated_by` varchar(64) default 'SYSTEM',
+	PRIMARY KEY (`id_key`)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='门票管理用户表';
 create unique INDEX `trv_syc_user_sid` on `trv_syc_user`(`user_id`);

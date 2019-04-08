@@ -8,12 +8,12 @@ insert into trv_syc_tkttype (id_key, type_id, type_name, type_image) values(rand
 insert into trv_syc_tkttype (id_key, type_id, type_name, type_image) values(rand_string(32), concat('TKT', padIntToStr('L', nextval('trv_tkt_type_category  '), 15, '0')), '双人票', 'doublePic.png');
 
 insert into trv_spot_info(id_key, spot_id, spot_name, image_url, city_id, area_id, spot_price, spot_old_price,spot_level,spot_address)
-values(rand_string(32), 'SP0000000000000001','银杏湖乐园', 'yinxinhu.png', 'CT0000000001', 'ARNJ000000008',95, 148, '','江苏省南京市江宁区银杏湖大道520号');
+values(rand_string(32), concat('SP', padIntToStr('L', nextval('tour_spot_category'), 15, '0')),'银杏湖乐园', 'yinxinhu.png', 'CT0000000001', 'ARNJ000000008',95, 148, '','江苏省南京市江宁区银杏湖大道520号');
 
 
-INSERT INTO `trv_spot_info`(id_key, spot_id, spot_name, image_url, city_id, area_id, spot_price, spot_old_price,spot_level,spot_address) VALUES (rand_string(32), 'SP0000000000000002', 'test3', 'images/498300.jpg', 'CT0000000002', 'ARWX000000002', 55.00, 85.00, '4A景区', '啊打发打发打发似的');
-INSERT INTO `trv_spot_info`(id_key, spot_id, spot_name, image_url, city_id, area_id, spot_price, spot_old_price,spot_level,spot_address) VALUES (rand_string(32), 'SP0000000000000003', 'test4', 'images/829843.jpg', 'CT0000000002', 'ARWX000000003', 75.00, 110.00, '4A景区', '啊打发打发打发似的');
-INSERT INTO `trv_spot_info`(id_key, spot_id, spot_name, image_url, city_id, area_id, spot_price, spot_old_price,spot_level,spot_address) VALUES (rand_string(32), 'SP0000000000000001', 'test2', 'images/timg1.png', 'CT0000000002', 'ARWX000000001', 25.00, 80.00, '4A景区', '啊打发打发打发似的');
+INSERT INTO `trv_spot_info`(id_key, spot_id, spot_name, image_url, city_id, area_id, spot_price, spot_old_price,spot_level,spot_address) VALUES (rand_string(32), concat('SP', padIntToStr('L', nextval('tour_spot_category'), 15, '0')), 'test3', 'images/498300.jpg', 'CT0000000002', 'ARWX000000002', 55.00, 85.00, '4A景区', '啊打发打发打发似的');
+INSERT INTO `trv_spot_info`(id_key, spot_id, spot_name, image_url, city_id, area_id, spot_price, spot_old_price,spot_level,spot_address) VALUES (rand_string(32), concat('SP', padIntToStr('L', nextval('tour_spot_category'), 15, '0')), 'test4', 'images/829843.jpg', 'CT0000000002', 'ARWX000000003', 75.00, 110.00, '4A景区', '啊打发打发打发似的');
+INSERT INTO `trv_spot_info`(id_key, spot_id, spot_name, image_url, city_id, area_id, spot_price, spot_old_price,spot_level,spot_address) VALUES (rand_string(32), concat('SP', padIntToStr('L', nextval('tour_spot_category'), 15, '0')), 'test2', 'images/timg1.png', 'CT0000000002', 'ARWX000000001', 25.00, 80.00, '4A景区', '啊打发打发打发似的');
 
 INSERT INTO `trv_spot_info`(id_key, spot_id, spot_name, image_url, city_id, area_id, spot_price, spot_old_price,spot_level,spot_address) VALUES (rand_string(32), concat('SP', padIntToStr('L', nextval('tour_spot_category'), 15, '0')), 'test5', 'images/498300.jpg', 'CT0000000002', 'ARWX000000002', 55.00, 85.00, '4A景区', '啊打发打发打发似的');
 INSERT INTO `trv_spot_info`(id_key, spot_id, spot_name, image_url, city_id, area_id, spot_price, spot_old_price,spot_level,spot_address) VALUES (rand_string(32), concat('SP', padIntToStr('L', nextval('tour_spot_category'), 15, '0')), 'test6', 'images/829843.jpg', 'CT0000000002', 'ARWX000000003', 75.00, 110.00, '4A景区', '啊打发打发打发似的');
